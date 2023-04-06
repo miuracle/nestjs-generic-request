@@ -1,0 +1,47 @@
+{
+  "name": "@meoracle/nestjs-generic-request",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint --ext .js,.ts .",
+    "format": "prettier --write \"src/*.ts\"",
+    "test": "jest"
+  },
+  "keywords": [
+    "generic",
+    "crud",
+    "nestjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miuracle/nestjs-generic-request.git"
+  },
+  "homepage": "https://github.com/miuracle/nestjs-generic-request#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "miuracle",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0",
+    "prettier": "2.8.7",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.12"
+  }
+}
